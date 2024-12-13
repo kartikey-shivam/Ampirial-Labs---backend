@@ -1,0 +1,36 @@
+{
+	"server": {
+		"home": "Assginment Server is up and running.",
+		"notFound": "Route not found"
+	},
+	"auth": {
+		"userAlreadyRegistered": "User already registered, please login!",
+		"registrationComplete": "Registration successful",
+		"loggedIn": "Login successful",
+		"oAuthError": "Please log in with OAuth",
+		"accountNotFound": "Account does not exists, please register!",
+		"logout": "Logout successful!"
+	},
+	"user": {
+		"index": "User details fetched successfully"
+	},
+	"field": {
+		"destOriginIdSame": "Origin Id and Destination Id cannot be the same"
+	},
+	"offer": {
+		"fieldRequired": "offer.fieldRequired",
+		"store": "offer.store",
+		"index": "offer.index",
+		"fetched": "offer.fetched",
+		"rejected": "offer.rejected",
+		"canNotAccept": "offer.canNotAccept",
+		"accepted": "offer.accepted",
+		"notFound": "offer.notFound",
+		"canNotSign": "offer.canNotSign",
+		"signed": "offer.signed",
+		"filteredByRecruiter": "offer.filteredByRecruiter"
+	},
+	"recruiter": {
+		"fieldRequired": "recruiter.fieldRequired"
+	}
+}

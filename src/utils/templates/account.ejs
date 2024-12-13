@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        background-color: #eef2f7;
+        margin: 0;
+        padding: 0;
+        color: #444;
+      }
+      .container {
+        max-width: 600px;
+        margin: 30px auto;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .header {
+        background-color: #4a90e2;
+        color: #fff;
+        text-align: center;
+        padding: 20px 10px;
+      }
+      .header h1 {
+        font-size: 28px;
+        margin: 0;
+        font-weight: 600;
+      }
+      .content {
+        padding: 20px 30px;
+        line-height: 1.6;
+      }
+      .content p {
+        margin: 15px 0;
+        font-size: 16px;
+      }
+      .content strong {
+        color: #333;
+      }
+      .button {
+        display: block;
+        width: max-content;
+        margin: 20px auto;
+        padding: 10px 20px;
+        background-color: #4a90e2;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .button:hover {
+        background-color: #357abd;
+      }
+      .footer {
+        background-color: #f9f9f9;
+        text-align: center;
+        padding: 15px 10px;
+        font-size: 12px;
+        color: #888;
+        border-top: 1px solid #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Welcome to Our Service!</h1>
+      </div>
+      <div class="content">
+        <p>Dear <strong><%= firstName %> <%= lastName %></strong>,</p>
+        <p>We are thrilled to have you on board! Your account has been successfully created, and here are your account details:</p>
+        <p><strong>Email:</strong> <%= email %></p>
+        <p><strong>Password:</strong> <%= password %></p>
+        <p>Please ensure that you keep this information secure and do not share it with anyone.</p>
+        <p>If you need any assistance, feel free to reach out to our support team. We’re here to help you.</p>
+        <a href="#" class="button">Go to Your Account</a>
+      </div>
+      <div class="footer">
+        <p>&copy; <%= new Date().getFullYear() %> Your Company. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>
